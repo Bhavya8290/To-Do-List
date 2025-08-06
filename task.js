@@ -7,11 +7,11 @@ myInput.addEventListener('keypress', function (e) {
 });
 function insertTask(){
     const taskText = myInput.value.trim();
-    if (taskvalue === '') return;
+    if (taskText === '') return;
 const taskItem = document.createElement('li');
   taskItem.className = 'itemBox';
   taskItem.innerHTML = `
-    <span>${taskValue}</span>
+    <span>${taskText}</span>
     <button onclick="eraseTask(this)">🗑</button>
   `;
   taskItem.addEventListener('click', function (e) {
@@ -27,3 +27,4 @@ function eraseTask(button) {
   item.remove();
 
 }
+
