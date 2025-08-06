@@ -1,4 +1,3 @@
-styles.css
 body{
     font-family: Arial, sans-serif;
     background: #f0f8ff;
@@ -69,4 +68,5 @@ h1 {
 }
 .itemBox button:hover {
   background: #c82333;
+
 }
