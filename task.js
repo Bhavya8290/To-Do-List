@@ -1,4 +1,3 @@
-script.js
 const myInput = document.getElementById('myInput');
 const goButton = document.getElementById('goButton');
 const myTaskBoard = document.getElementById('myTaskBoard');
@@ -26,4 +25,5 @@ const taskItem = document.createElement('li');
 function eraseTask(button) {
   const item = button.closest('li');
   item.remove();
+
 }
